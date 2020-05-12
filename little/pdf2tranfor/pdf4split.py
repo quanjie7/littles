@@ -36,4 +36,4 @@ class PDF4Split(object):
 
 
 if __name__ == "__main__":
-    PDF4Split().split_pdf('../xxtest/pdf4tranfor/cq2019.pdf', '../xxtest/pdf4tranfor/config.txt')
+    PDF4Split().split_pdf('../../xxtest/pdf4tranfor/cq2019.pdf', '../xxtest/pdf4tranfor/config.txt')
