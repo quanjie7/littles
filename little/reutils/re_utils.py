@@ -3,7 +3,7 @@
 import re
 
 
-class ReLittles(object):
+class ReLittle(object):
 
     digital_pattern = re.compile(r"\d+")
 
