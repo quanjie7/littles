@@ -14,7 +14,7 @@ class ReLittle(object):
         :param content:
         :return: 字符串型的列表
         '''
-        results = re.findall(ReLittles.digital_pattern,content)
+        results = re.findall(ReLittle.digital_pattern,content)
         return results
 
     @staticmethod
@@ -24,10 +24,10 @@ class ReLittle(object):
         :param content:
         :return: 整型的列表
         '''
-        results = re.findall(ReLittles.digital_pattern, content)
+        results = re.findall(ReLittle.digital_pattern, content)
         results = [int(s) for s in results]
         return results
 
 if __name__ == "__main__":
-    print(ReLittles.extract_digital_2_int("dds23dd4sd23"))
+    print(ReLittle.extract_digital_2_int("dds23dd4sd23"))
 
