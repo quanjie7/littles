@@ -1,3 +1,9 @@
 笔记
 打包参考
 https://juejin.im/post/5d8814adf265da03be491737
+
+编辑: 先在项目主目录下编辑setup.py,
+打包: python setup.py sdist
+安装: sudo python setup.py install  (--record files.txt)
+卸载: sudo cat files.txt | sudo  xargs rm -rf
+
