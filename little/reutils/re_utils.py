@@ -28,6 +28,18 @@ class ReLittle(object):
         results = [int(s) for s in results]
         return results
 
+    @staticmethod
+    def sub_all(content,pattern):
+        '''
+        替换所有的pattern,用空字符串代替
+        :param content:
+        :param pattern:
+        :return:
+        '''
+        content = re.sub(pattern,"",content)
+        return content
+
+
 if __name__ == "__main__":
-    print(ReLittle.extract_digital_2_int("dds23dd4sd23"))
+    print(ReLittle.sub_all("dds23dd4sd23","[0-9][a-z]"))
 
