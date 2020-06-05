@@ -7,7 +7,7 @@ with open("Readme.md", "r",encoding='utf-8') as fh:
 
 setuptools.setup(
     name="littles",
-    version="0.1.0",
+    version="0.1.1",
     author="quanjie",
     author_email="iquanjie@foxmail.com",
     description="a little tool for python;python编程中的一些常用小工具",
