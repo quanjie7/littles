@@ -10,6 +10,13 @@ class DatetimeLittle(object):
     sdf_datetime = '%Y-%m-%d %H:%M:%S'
 
     """
+    返回n位的时间戳
+    """
+    @staticmethod
+    def timestampN(n):
+        return str(time.time())[:n]
+
+    """
     返回10的时间戳
     """
     @staticmethod

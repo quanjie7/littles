@@ -7,6 +7,14 @@
 
 #更新日志
 
+### 2020-06-06
+
+获取字符串的时间
+```python
+little.DatetimeLittle.timestamp10() #1591412432 
+little.DatetimeLittle.timestampN()  #15914124
+```
+
 ### 2020-06-05
 
 新增替换工具
