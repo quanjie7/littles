@@ -1,11 +1,20 @@
 # -*- coding: utf-8 -*-
 # @Time: 2020/5/14 17:55
+
+import time
 import datetime
 
 
 class DatetimeLittle(object):
     sdf_date = '%Y-%m-%d'
     sdf_datetime = '%Y-%m-%d %H:%M:%S'
+
+    """
+    返回10的时间戳
+    """
+    @staticmethod
+    def timestamp10():
+        return str(time.time())[:10]
 
     @staticmethod
     def date_increment(base_date=None,offset=1):
